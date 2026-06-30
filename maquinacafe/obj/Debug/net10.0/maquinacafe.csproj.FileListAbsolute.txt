@@ -1,0 +1,14 @@
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\bin\Debug\net10.0\maquinacafe.exe
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\bin\Debug\net10.0\maquinacafe.deps.json
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\bin\Debug\net10.0\maquinacafe.runtimeconfig.json
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\bin\Debug\net10.0\maquinacafe.dll
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\bin\Debug\net10.0\maquinacafe.pdb
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\obj\Debug\net10.0\maquinacafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\obj\Debug\net10.0\maquinacafe.AssemblyInfoInputs.cache
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\obj\Debug\net10.0\maquinacafe.AssemblyInfo.cs
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\obj\Debug\net10.0\maquinacafe.csproj.CoreCompileInputs.cache
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\obj\Debug\net10.0\maquinacafe.dll
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\obj\Debug\net10.0\refint\maquinacafe.dll
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\obj\Debug\net10.0\maquinacafe.pdb
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\obj\Debug\net10.0\maquinacafe.genruntimeconfig.cache
+C:\Users\monte\MaquinaCafeTDD\maquinacafe\obj\Debug\net10.0\ref\maquinacafe.dll
