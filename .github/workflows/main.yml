@@ -10,24 +10,22 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
 
-    - name: Clonar repositorio
-      uses: actions/checkout@v4
+      - name: Instalar .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
 
-    - name: Instalar .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '10.0.x'
+      - name: Restaurar paquetes
+        run: dotnet restore ./maquinacafe/maquinacafe.csproj
 
-    - name: Restaurar paquetes
-      run: dotnet restore
+      - name: Compilar proyecto
+        run: dotnet build ./maquinacafe/maquinacafe.csproj --configuration Release --no-restore
 
-    - name: Compilar proyecto
-      run: dotnet build --no-restore
-
-    - name: Ejecutar pruebas
-      run: dotnet test --no-build --verbosity normal
+      - name: Ejecutar pruebas
+        run: dotnet test ./maquinacafe/MaquinaCafe.Tests/MaquinaCafe.Tests.csproj --configuration Release --no-build --verbosity normal
