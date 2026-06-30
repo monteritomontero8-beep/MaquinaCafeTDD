@@ -19,13 +19,13 @@ jobs:
       - name: Instalar .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '10.0.x'
 
       - name: Restaurar paquetes
-        run: dotnet restore ./maquinacafe/maquinacafe.csproj
+        run: dotnet restore ./maquinacafe/MaquinaCafe.Tests/MaquinaCafe.Tests.csproj
 
       - name: Compilar proyecto
-        run: dotnet build ./maquinacafe/maquinacafe.csproj --configuration Release --no-restore
+        run: dotnet build ./maquinacafe/MaquinaCafe.Tests/MaquinaCafe.Tests.csproj --no-restore
 
       - name: Ejecutar pruebas
-        run: dotnet test ./maquinacafe/MaquinaCafe.Tests/MaquinaCafe.Tests.csproj --configuration Release --no-build --verbosity normal
+        run: dotnet test ./maquinacafe/MaquinaCafe.Tests/MaquinaCafe.Tests.csproj --no-build
